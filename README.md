@@ -23,15 +23,24 @@ Features
 Folder Structure
 
 eternalscripture/
-├── cards/                  # Uploaded card images & files
+├── cards/ # Uploaded card images & files
+
 │   ├── card001.jpg
+
 │   └── card001.json
+
 ├── metadata/               # IPFS CIDs and descriptive metadata
+
 │   └── ipfs_registry.json
+
 ├── scripts/                # Automation tools
+
 │   └── upload_to_ipfs.py
+
 ├── blockchain/             # Smart contract code or blockchain recording scripts
+
 │   └── record_cid.sol
+
 ├── README.md
 
 
