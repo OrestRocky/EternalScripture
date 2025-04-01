@@ -8,6 +8,8 @@ EternalScripture is a Web3-based preservation project dedicated to the eternal s
 
 This project merges faith, technology, and historical memory into a decentralized archive that transcends borders, regimes, and time.
 
+
+
 Features
 
 ✅ Permanent file storage via IPFS
@@ -20,28 +22,23 @@ Features
 
 ✅ Designed for cross-border collaboration and long-term spiritual preservation
 
+
+
 Folder Structure
 
 eternalscripture/
-├── cards/ # Uploaded card images & files
-
+├── cards/                  # Uploaded card images & files
 │   ├── card001.jpg
-
 │   └── card001.json
-
 ├── metadata/               # IPFS CIDs and descriptive metadata
-
 │   └── ipfs_registry.json
-
 ├── scripts/                # Automation tools
-
 │   └── upload_to_ipfs.py
-
 ├── blockchain/             # Smart contract code or blockchain recording scripts
-
 │   └── record_cid.sol
-
 ├── README.md
+
+
 
 
 Tech Stack
@@ -65,13 +62,12 @@ Example Metadata File (card001.json)
   "description": "Depiction of Genesis 22: Abraham prepares to sacrifice his son Isaac in obedience to God.",
   "scripture_reference": "Genesis 22:1–19",
   "language": "Latin",
-  "cid": "QmXYZ...",  
+  "cid": "QmXYZ...",
   "format": "image/jpeg",
   "uploaded_by": "orest.yatskuliak",
   "date_uploaded": "2025-04-01"
 }
 
-Upload Script (scripts/upload_to_ipfs.py)
 import os
 import json
 import requests
@@ -90,9 +86,7 @@ for file_name in files:
             print(f"Uploaded {file_name} -> CID: {cid}")
         else:
             print(f"Failed to upload {file_name}: {response.text}")
-
-
-
+          
 
 
 Mission & Vision
