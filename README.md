@@ -1,6 +1,6 @@
 # EternalScripture
 
-![Eternal Scripture](./assets/eternal_scripture.png)
+
 
 
 **Preserving the Sacred. Forever.**
