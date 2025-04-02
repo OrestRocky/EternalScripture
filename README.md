@@ -1,5 +1,6 @@
 # EternalScripture
-![Eternal Scripture](./A_digital_illustration_titled_"Eternal_Scripture"_.png)
+![Eternal Scripture(./eternal_scripture.png)
+)
 
 **Preserving the Sacred. Forever.**
 
